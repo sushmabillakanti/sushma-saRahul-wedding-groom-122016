@@ -105,14 +105,14 @@ export const AudioPlayer: React.FC = () => {
     <>
       <audio
         ref={audioRef}
-        src="./wedding-background-music.mp3"
+        src="./assets/aistudio/ReelAudio-91560_cc35fda5.mp3"
         autoPlay
         loop
         preload="auto"
         playsInline
       >
+        <source src="./assets/aistudio/ReelAudio-91560_cc35fda5.mp3" type="audio/mpeg" />
         <source src="./wedding-background-music.mp3" type="audio/mpeg" />
-        <source src="./assets/aistudio/AUD-20261028-WA0010_515583a7.mp3" type="audio/mpeg" />
       </audio>
 
       {/* Subtle top banner if browser blocked initial autoplay until first tap */}
